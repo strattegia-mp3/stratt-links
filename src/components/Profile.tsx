@@ -92,7 +92,7 @@ export function Profile() {
         className="text-sm text-content-muted max-w-[240px] leading-relaxed"
       >
         {profile.bio}
-        <span className="text-content-main font-semibold">@{profile.role}</span>
+        <span className="text-content-main font-semibold"> @ {profile.role}</span>
       </motion.p>
     </motion.header>
   );

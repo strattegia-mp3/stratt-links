@@ -70,6 +70,14 @@ export const metadata: Metadata = {
       "max-image-preview": "large",
     },
   },
+
+  icons: {
+    icon: [
+      { url: "./favicon.ico", sizes: "32x32" },
+      { url: "/icons/favicon.svg", type: "image/svg+xml" },
+    ],
+    apple: [{ url: "/icons/apple-touch-icon.png", sizes: "180x180" }],
+  },
 };
 
 export default function RootLayout({
